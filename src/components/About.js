@@ -24,7 +24,12 @@ export default function About() {
       .catch(console.error);
   }, []);
 
-  if (!author) return <div>Loading...</div>;
+  if (!author)
+    return (
+      <div className="min-h-screen bg-green-100 flex justify-center flex items-center">
+        <h1 className="bg-green-100 loader ease-linear rounded-full border-8 border-t-8 border-gray-200 h-64 w-64"></h1>
+      </div>
+    );
 
   return (
     <main className="relative">
