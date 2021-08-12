@@ -7854,6 +7854,13 @@
   "resolved" "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   "version" "2.6.2"
 
+"netlify-plugin-submit-sitemap@^0.2.3":
+  "integrity" "sha512-OmRZgqCkigLcb9p7ri/gw7XecZjCH4cEh1SLUb819weT5bk2ly6PO46wbHsaZARDgM7UMmj1QzkJyjH53ECtTQ=="
+  "resolved" "https://registry.npmjs.org/netlify-plugin-submit-sitemap/-/netlify-plugin-submit-sitemap-0.2.3.tgz"
+  "version" "0.2.3"
+  dependencies:
+    "node-fetch" "^2.6.0"
+
 "next-tick@~1.0.0":
   "integrity" "sha1-yobR/ogoFpsBICCOPchCS524NCw="
   "resolved" "https://registry.npmjs.org/next-tick/-/next-tick-1.0.0.tgz"
@@ -7871,6 +7878,11 @@
   dependencies:
     "lower-case" "^2.0.2"
     "tslib" "^2.0.3"
+
+"node-fetch@^2.6.0":
+  "integrity" "sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw=="
+  "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz"
+  "version" "2.6.1"
 
 "node-forge@^0.10.0":
   "integrity" "sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA=="
