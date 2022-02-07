@@ -9,8 +9,8 @@ export default function Home() {
         alt="Makena Beach, Maui, HI"
         className="absolute object-cover w-full h-full "
       />
-      <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
-        <h1 className="text-6xl text-blue-400 text-opacity-80 flex justify-center font-light PlayFair leading-none lg:leading-snug home-name">
+      <section className="relative flex justify-center min-h-screen pt-20 lg:pt-40 px-8">
+        <h1 className="text-6xl text-green-900 text-opacity-80 flex justify-center font-light PlayFair lg:leading-snug home-name ">
           Hi! I'm Vedanth.{" "}
         </h1>
       </section>
