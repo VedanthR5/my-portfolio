@@ -43,14 +43,14 @@ export default function NavBar() {
             className="mr-4"
             target="_blank"
             fgColor="#fff"
-            style={{ height: 45, width: 45 }}
+            style={{ height: 55, width: 55 }}
           />
           <SocialIcon
             url="mailto:vedanth.ramanathan@gmail.com"
             className="mr-4"
             target="_blank"
             fgColor="#fff"
-            style={{ height: 45, width: 45 }}
+            style={{ height: 55, width: 55 }}
           />
         </div>
       </div>
