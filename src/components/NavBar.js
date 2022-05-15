@@ -36,6 +36,14 @@ export default function NavBar() {
           >
             About Me!
           </NavLink>
+          <NavLink
+            to={{pathname: "computely.org"}}
+            target="_blank"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-400 hover:text-green-300 text-xl font-semibold OpenSans"
+            activeClassName="text-red-900 bg-blue-900"
+          >
+            Computely
+          </NavLink>
         </nav>
         <div className="inline-flex py-3 px-3 my-6">
           <SocialIcon
